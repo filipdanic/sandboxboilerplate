@@ -1,0 +1,22 @@
+{
+  "name": "sandboxboilerplate",
+  "version": "0.0.1",
+  "description": "random little boilerplate to get up and running with babel Edit",
+  "main": "index.js",
+  "repository": "https://github.com/filipdanic/sandboxboilerplate.git",
+  "author": "Filip Danić <filip@spicefactory.co>",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "yarn": "^1.3.2"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "babel-node src/index.js"
+  },
+  "dependencies": {
+    "galago": "^0.2.1"
+  }
+}
